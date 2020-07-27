@@ -1,0 +1,31 @@
+.bgimg{
+	background-image: url('obacg.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 660px;
+}
+.headerset{
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+.headerset h2{
+	font-size: 42px;
+}
+.headerset h1{
+	font-size: 55px;
+}
+.change_contain:after{
+    content:'';
+    animation: changetext 10s infinite linear;
+    color: orange;
+}
+@keyframes changetext{
+    0%{content:"Breaking Bad";}
+    25%{content:"FRIENDS";}
+    40%{content:"Peaky Blinders";}
+    55%{content:"NARUTO";}
+    70%{content:"GTO";}
+    85%{content:"GODFATHER";}
+    100%{content:"HANGOVER";}
+} 
